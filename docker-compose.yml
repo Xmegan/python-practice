@@ -1,0 +1,6 @@
+services:
+  python-demo:
+    image: python:3.10.4
+    volumes:
+      - .:usr/src/app/
+    working_dir: /usr/src/app/
